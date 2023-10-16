@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.eco{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+.eco h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+    color: #112433;
+    font-style: normal;
+    text-align: center;
+}
+.fruit{
+    width: 60%;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+}
+.fruit ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+    margin-top: 50px;
+    list-style: none;
+}
+.fruit ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: #7b8e9d;
+    padding: 15px 25px;
+    font-family: 'Rubik', sans-serif;
+    border-left: 1px solid #7b8e9d;
+}
+.fruit ul :nth-child(1){
+    border: none;
+    color: #408858;
+}
+.img1 {
+    width: 10%;
+    height: 40px;
+}
+.img1 img{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.rich{
+    width: 60%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 23%;
+    height: 285px;
+    position: relative;
+    margin-bottom:70px ;
+}
+.box img{
+     width: 100%;
+     border: 1px solid #7b8e9d;
+     height: 285px;
+} 
+.box h1{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #408858c2;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box:hover .icon{
+    opacity: 1;
+}
+.icon i:hover{
+    background-color: red;
+    color: white;
+    
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #408858;
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+.vegetable,.dry-f,.dry-v{
+    display: none;
+}
+  
